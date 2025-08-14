@@ -13,7 +13,8 @@ window.onload = function() {
 
     let frameImage = new Image();
     let userPhoto = null;
-    let currentFrameUrl = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoY4AvfD4C4YO791K1LBWAJ1ayXiOgLcVLOmlyjpcGrVviRJLOcDzbsH0py-MBsdD2lChVoVSgULcFIKFhrWPw1fbr88LeifUNbAiyLSB_hwzAnxkq6GQmE6Zax0t9gO9_IzdL8rfrs-oABif2RPoD1Hn6MRmVxmfCK09Jpq3ZBSHBWMCAmZjx5xXXd4/s1200/NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.png';
+    // Change the image path to the new relative path
+frameImage.src = 'images/frame.png';
     
     // Adjusting the size of the Blogger image link
     currentFrameUrl = currentFrameUrl.replace('/s320/', '/s1200/');
